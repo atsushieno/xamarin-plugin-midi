@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+   <metadata minClientVersion="2.8.1">
+       <id>Plugin.Midi</id>
+       <version>1.0.0</version>
+       <title>Midi Plugin for Xamarin and Windows</title>
+       <authors>Your Name</authors>
+       <owners>Your Name</owners>
+       <licenseUrl>urn:foo</licenseUrl>
+       <projectUrl>urn:bar</projectUrl>
+     <!--Default Icon, a template can be found:  https://raw.githubusercontent.com/jamesmontemagno/Xamarin-Templates/master/Plugins-Templates/icons/plugin_icon.png-->  
+     <iconUrl>https://raw.githubusercontent.com/jamesmontemagno/Xamarin-Templates/master/Plugins-Templates/icons/plugin_icon_nuget.png</iconUrl>
+     
+       <requireLicenseAcceptance>false</requireLicenseAcceptance>
+       <description>
+         Long description for your plugin.
+       </description>
+       <summary>Short description for your plugin.</summary>
+       <tags>xamarin, pcl, xam.pcl, plugin, plugin for xamarin, uwp, android, xamarin.forms, ios</tags>
+       <dependencies>
+       </dependencies>
+   </metadata>
+   <files>
+  <!--Core-->
+     <file src="Midi\Plugin.Midi\bin\Release\Plugin.Midi.dll" target="lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Plugin.Midi.dll" />
+     <file src="Midi\Plugin.Midi\bin\Release\Plugin.Midi.xml" target="lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Plugin.Midi.xml" />
+     <file src="Midi\Plugin.Midi\bin\Release\Plugin.Midi.pdb" target="lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Plugin.Midi.pdb" />
+     <file src="Midi\Plugin.Midi.Abstractions\bin\Release\Plugin.Midi.Abstractions.dll" target="lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Plugin.Midi.Abstractions.dll" />
+     <file src="Midi\Plugin.Midi.Abstractions\bin\Release\Plugin.Midi.Abstractions.xml" target="lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Plugin.Midi.Abstractions.xml" />
+     <file src="Midi\Plugin.Midi.Abstractions\bin\Release\Plugin.Midi.Abstractions.pdb" target="lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Plugin.Midi.Abstractions.pdb" />
+
+     <!--Universal Windows-->
+     <file src="Midi\Plugin.Midi.UniversalWindows\bin\Release\Plugin.Midi.dll" target="lib\uap\Plugin.Midi.dll" />
+     <file src="Midi\Plugin.Midi.UniversalWindows\bin\Release\Plugin.Midi.xml" target="lib\uap\Plugin.Midi.xml" />
+     <file src="Midi\Plugin.Midi.UniversalWindows\bin\Release\Plugin.Midi.pdb" target="lib\uap\Plugin.Midi.pdb" />
+     <file src="Midi\Plugin.Midi.Abstractions\bin\Release\Plugin.Midi.Abstractions.dll" target="lib\uap\Plugin.Midi.Abstractions.dll" />
+     <file src="Midi\Plugin.Midi.Abstractions\bin\Release\Plugin.Midi.Abstractions.xml" target="lib\uap\Plugin.Midi.Abstractions.xml" />
+     <file src="Midi\Plugin.Midi.Abstractions\bin\Release\Plugin.Midi.Abstractions.pdb" target="lib\uap\Plugin.Midi.Abstractions.pdb" />
+
+     <!--Win Phone 81-->
+<!--
+     <file src="Midi\Plugin.Midi.WindowsPhone81\bin\Release\Plugin.Midi.dll" target="lib\wpa81\Plugin.Midi.dll" />
+     <file src="Midi\Plugin.Midi.WindowsPhone81\bin\Release\Plugin.Midi.xml" target="lib\wpa81\Plugin.Midi.xml" />
+     <file src="Midi\Plugin.Midi.WindowsPhone81\bin\Release\Plugin.Midi.pdb" target="lib\wpa81\Plugin.Midi.pdb" />
+     <file src="Midi\Plugin.Midi.Abstractions\bin\Release\Plugin.Midi.Abstractions.dll" target="lib\wpa81\Plugin.Midi.Abstractions.dll" />
+     <file src="Midi\Plugin.Midi.Abstractions\bin\Release\Plugin.Midi.Abstractions.xml" target="lib\wpa81\Plugin.Midi.Abstractions.xml" />
+     <file src="Midi\Plugin.Midi.Abstractions\bin\Release\Plugin.Midi.Abstractions.pdb" target="lib\wpa81\Plugin.Midi.Abstractions.pdb" />
+-->
+
+     <!--WinStore-->
+     <!--
+     <file src="Midi\Plugin.Midi.WindowsStore\bin\Release\Plugin.Midi.dll" target="lib\win8\Plugin.Midi.dll" />
+     <file src="Midi\Plugin.Midi.WindowsStore\bin\Release\Plugin.Midi.xml" target="lib\win8\Plugin.Midi.xml" />
+     <file src="Midi\Plugin.Midi.WindowsStore\bin\Release\Plugin.Midi.pdb" target="lib\win8\Plugin.Midi.pdb" />
+     <file src="Midi\Plugin.Midi.Abstractions\bin\Release\Plugin.Midi.Abstractions.dll" target="lib\win8\Plugin.Midi.Abstractions.dll" />
+     <file src="Midi\Plugin.Midi.Abstractions\bin\Release\Plugin.Midi.Abstractions.xml" target="lib\win8\Plugin.Midi.Abstractions.xml" />
+     <file src="Midi\Plugin.Midi.Abstractions\bin\Release\Plugin.Midi.Abstractions.pdb" target="lib\win8\Plugin.Midi.Abstractions.pdb" />
+-->
+
+
+     <!--Xamarin.Android-->
+     <file src="Midi\Plugin.Midi.Android\bin\Release\Plugin.Midi.dll" target="lib\MonoAndroid10\Plugin.Midi.dll" />
+     <file src="Midi\Plugin.Midi.Android\bin\Release\Plugin.Midi.xml" target="lib\MonoAndroid10\Plugin.Midi.xml" />
+     <file src="Midi\Plugin.Midi.Android\bin\Release\Plugin.Midi.pdb" target="lib\MonoAndroid10\Plugin.Midi.pdb" />
+     <file src="Midi\Plugin.Midi.Abstractions\bin\Release\Plugin.Midi.Abstractions.dll" target="lib\MonoAndroid10\Plugin.Midi.Abstractions.dll" />
+     <file src="Midi\Plugin.Midi.Abstractions\bin\Release\Plugin.Midi.Abstractions.xml" target="lib\MonoAndroid10\Plugin.Midi.Abstractions.xml" />
+     <file src="Midi\Plugin.Midi.Abstractions\bin\Release\Plugin.Midi.Abstractions.pdb" target="lib\MonoAndroid10\Plugin.Midi.Abstractions.pdb" />
+     
+     <!--Xamarin.iOS Unified-->
+     <file src="Midi\Plugin.Midi.iOSUnified\bin\iPhone\Release\Plugin.Midi.dll" target="lib\Xamarin.iOS10\Plugin.Midi.dll" />
+     <file src="Midi\Plugin.Midi.iOSUnified\bin\iPhone\Release\Plugin.Midi.xml" target="lib\Xamarin.iOS10\Plugin.Midi.xml" />
+     <file src="Midi\Plugin.Midi.Abstractions\bin\Release\Plugin.Midi.Abstractions.dll" target="lib\Xamarin.iOS10\Plugin.Midi.Abstractions.dll" />
+     <file src="Midi\Plugin.Midi.Abstractions\bin\Release\Plugin.Midi.Abstractions.xml" target="lib\Xamarin.iOS10\Plugin.Midi.Abstractions.xml" />
+
+
+
+   </files>
+</package>
